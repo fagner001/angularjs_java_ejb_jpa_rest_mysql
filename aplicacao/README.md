@@ -1,16 +1,16 @@
-SUTRE: Using Multiple Java EE 6 Technologies Deployed as an EAR
+APLICACAO: Using Multiple Java EE 6 Technologies Deployed as an EAR
 ==============================================================================================
 Author: Pete Muir  
 Level: Intermediate  
-Technologies: CDI, JSF, JPA, EJB, JAX-RS, BV, EAR  
-Summary: The `SUTRE` quickstart demonstrates web-enabled database application, using JSF, CDI, EJB, JPA and Bean Validation, packaged as an EAR.   
+Technologies: AngularJS, Bootstrap, CDI, JPA, EJB, JAX-RS, BV, EAR  
+Summary: The `APLICACAO` quickstart demonstrates web-enabled database application, using , AngularJS, Bootstrap,  CDI, EJB, JPA and Bean Validation, packaged as an EAR.   
 Target Product: JBoss EAP  
 Source: <https://github.com/jboss-developer/jboss-eap-quickstarts/>  
 
 What is it?
 -----------
 
-The `SUTRE` quickstart is a deployable Maven 3 project to help you get your foot in the door developing with Java EE 6 on Red Hat JBoss Enterprise Application Platform. 
+The `APLICACAO` quickstart is a deployable Maven 3 project to help you get your foot in the door developing with Java EE 6 on Red Hat JBoss Enterprise Application Platform. 
 
 It demonstrates how to create a compliant Java EE 6 application using JSF 2.1, CDI 1.0, JAX-RS, EJB 3.1, JPA 2.0 and Bean Validation 1.0. It includes a persistence unit and some sample persistence and transaction code to introduce you to database access in enterprise Java. It is based on the [kitchensink](../kitchensink/README.md) quickstart but is packaged as an EAR archive.
 
@@ -60,13 +60,13 @@ _NOTE: The following build command assumes you have configured your Maven user s
 
         mvn clean install jboss-as:deploy
 
-4. This will deploy `target/SUTRE.ear` to the running instance of the server.
+4. This will deploy `target/APLICACAO.ear` to the running instance of the server.
 
 
 Access the application 
 ---------------------
 
-The application will be running at the following URL: <http://localhost:8080/SUTRE-web>.
+The application will be running at the following URL: <http://localhost:8888/aplicacao-web>.
 
 1. Enter a name, email address, and Phone nubmer in the input field and click the _Register_ button.
 2. If the data entered is valid, the new member will be registered and added to the _Members_ display list.
