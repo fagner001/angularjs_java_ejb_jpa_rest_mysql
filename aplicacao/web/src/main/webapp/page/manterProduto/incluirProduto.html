@@ -1,0 +1,59 @@
+<meta charset="UTF-8">
+<div class="panel panel-card p m-b-sm">
+  <div class="container">
+      <h1 class="header">Cadastrar Produto </h1>
+      <div id="divMensagem"></div>
+      <p>* campos obrigatórios</p>
+  
+     <form class="cmxform m-t-lg" id="formProduto" name="produto" method="get" action="">
+        <fieldset>
+          <div class="row row-sm">
+            <div class="md-form-group">
+              <div class="col-sm-8">
+                <label>Código de Barras*</label>
+                  <input id="titulo" name="nome" ng-model="produtoIncluir.codigoBarra" class="md-input" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="row row-sm">
+            <div class="md-form-group">
+              <div class="col-sm-8">
+                <label>Nome*</label>
+                  <input id="titulo" name="nome" ng-model="produtoIncluir.nome" class="md-input" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="row row-sm">
+            <div class="md-form-group">
+              <div class="col-sm-8">
+                <label>Descrição*</label>
+                <input id="endereco" ng-model="produtoIncluir.descricao" name="descricao" class="md-input" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="row row-sm">
+            <div class="md-form-group">
+              <div class="col-sm-8">
+                <label>Quantidade*</label>
+                <input id="endereco" ng-model="produtoIncluir.quantidade" name="quantidade" class="md-input" type="text">
+              </div>
+            </div>
+          </div>
+           <div class="row row-sm">
+            <div class="md-form-group">
+              <div class="col-sm-8">
+                <label>Categoria*</label>
+                <input id="endereco" ng-model="produtoIncluir.categoria" name="categoria" class="md-input" type="text">
+              </div>
+            </div>
+          </div>
+       </div>
+          <br><br>
+          <div style="align:center;margin-left:25%;">
+            <input type="button" class="md-btn md-raised m-b btn-fw blue" value="Voltar" ng-click="voltar()" />
+            <input type="button" class="md-btn md-raised m-b btn-fw blue" value="Salvar" ng-click="cadastrarProduto()" />
+          </div>
+        </fieldset>
+      </form>
+      </div>
+</div>

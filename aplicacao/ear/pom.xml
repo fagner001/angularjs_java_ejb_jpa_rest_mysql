@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>aplicacao</artifactId>
+        <groupId>br.com.aplicacao</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>..</relativePath>
+    </parent>
+
+    <artifactId>aplicacao-ear</artifactId>
+    <packaging>ear</packaging>
+    <name>aplicacao: EAR Module</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>br.com.aplicacao</groupId>
+            <artifactId>aplicacao-web</artifactId>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>br.com.aplicacao</groupId>
+            <artifactId>aplicacao-ejb</artifactId>
+            <type>ejb</type>
+        </dependency>
+    </dependencies>
+  <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>${version.ear.plugin}</version>
+                <configuration>
+                    <version>6</version>
+                    <defaultLibBundleDir>lib</defaultLibBundleDir>
+                    <modules></modules>
+                    <fileNameMapping>no-version</fileNameMapping>
+                </configuration>
+            </plugin>
+        </plugins>
+  </build></project>
