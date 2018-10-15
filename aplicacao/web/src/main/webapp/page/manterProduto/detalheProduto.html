@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+<div class="panel panel-card p m-b-sm">
+  <div class="container">
+      <h1 class="header">Detalhe do Produto </h1>
+   
+     <form class="cmxform m-t-lg" id="formProduto" name="produto" method="get" action="">
+        <fieldset>
+        <div class="row row-sm">
+            <div class="md-form-group">
+              <div class="col-sm-8">
+                <label><b>Código de barras:</b> {{produtoDetalhe.codigoBarra}}</label>
+              </div>
+            </div>
+          </div>
+          <div class="row row-sm">
+            <div class="md-form-group">
+              <div class="col-sm-8">
+                <label><b>Nome:</b> {{produtoDetalhe.nome}}</label>
+              </div>
+            </div>
+          </div>
+          <div class="row row-sm">
+            <div class="md-form-group">
+              <div class="col-sm-8">
+                <label><b>Descrição:</b> {{produtoDetalhe.descricao}}</label>
+              </div>
+            </div>
+          </div>
+          <div class="row row-sm">
+            <div class="md-form-group">
+              <div class="col-sm-8">
+                <label><b>Quantidade:</b> {{produtoDetalhe.quantidade}}</label>
+              </div>
+            </div>
+          </div>
+           <div class="row row-sm">
+            <div class="md-form-group">
+              <div class="col-sm-8">
+                <label><b>Categoria:</b> {{produtoDetalhe.categoria}}</label>
+              </div>
+            </div>
+          </div>
+       </div>
+          <br><br>
+          <div style="align:center;margin-left:25%;">
+            <input type="button" class="md-btn md-raised m-b btn-fw blue" value="Voltar" ng-click="voltar()" />
+          </div>
+        </fieldset>
+      </form>
+   </div>
+</div>
