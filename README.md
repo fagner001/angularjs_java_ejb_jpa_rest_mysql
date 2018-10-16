@@ -1,20 +1,20 @@
 # angularjs_java_ejb_jpa_rest_mysql
-Projeto completo no padrão maven, utilizando as seguintes tecnologias:
+Projeto completo no padrÃ£o maven, utilizando as seguintes tecnologias:
 AngularJs, Bootstrap, Java, EJB, JPA, Api Rest e Mysql. 
-Passos para executar a aplicação local:
+Passo a passo para configurar e executar a aplicaÃ§Ã£o local:
 
-1º) Clonar o projeto do gitHub através da url:
+1Âº) Clonar o projeto do gitHub atravÃ©s da url:
 https://github.com/fagner001/angularjs_java_ejb_jpa_rest_mysql.git;
 
-2º)Importar o projeto pelo eclipse usando a opção do maven 
+2Âº) Importar o projeto pelo eclipse usando a opÃ§Ã£o do maven 
 (Existin Maven Projects);
 
-3º) Atualizar as dependências do maven;
+3Âº) Atualizar as dependÃªncias do maven;
 
-4º) Configurar o servidor Jboss(versões 7 em diante); 
-(Usar o arquivo standalone.xml no repositório como base)
+4Âº) Configurar o servidor Jboss(versÃµes 7 em diante)
+(Usar o arquivo standalone.xml no repositÃ³rio como base);
 
-5º) Criar um banco de dados Mysql com o nome de cadastro e uma tabela
+5Âº) Criar um banco de dados Mysql com o nome de cadastro e uma tabela
 com o nome de produto como no script abaixo:
 create table produto(
 					id int primary key auto_increment,
@@ -28,6 +28,6 @@ create table produto(
 insert into produto(codigoBarra,nome,descricao,quantidade,categoria) 
 values('123','produto teste','produto teste',1,'teste');
 
-5º)Acessar a aplicação por meio da url:
+5Âº)Acessar a aplicaÃ§Ã£o por meio da url:
 http://localhost:8888/aplicacao-web/
 
