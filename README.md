@@ -1,4 +1,4 @@
-# angularjs_java_ejb_jpa_rest_mysql
+# AngularJs_Java_Ejb_Jpa_ApiRest_Mysql
 Projeto completo no padrão maven, utilizando as seguintes tecnologias:
 AngularJs, Bootstrap, Java, EJB, JPA, Api Rest e Mysql. 
 Passo a passo para configurar e executar a aplicação local:
