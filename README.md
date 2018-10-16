@@ -11,7 +11,7 @@ Passo a passo para configurar e executar a aplicação local:
 
 3º) Atualizar as dependências do maven;
 
-4º) Configurar o servidor Jboss(versões 7 em diante)
+4º) Configurar o servidor Jboss (versões 7 em diante)
     (Usar o arquivo standalone.xml no repositório como base);
 
 5º) Criar um banco de dados Mysql com o nome de cadastro e uma tabela
@@ -25,8 +25,8 @@ Passo a passo para configurar e executar a aplicação local:
 					categoria varchar(10)
   );
 
-  insert into produto(codigoBarra,nome,descricao,quantidade,categoria) 
-  values('123','produto teste','produto teste',1,'teste');
+  insert into produto (codigoBarra,nome,descricao,quantidade,categoria) 
+  values ('123','produto teste','produto teste',1,'teste');
 
 6º) Acessar a aplicação por meio da url:
     http://localhost:8888/aplicacao-web/
